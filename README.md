@@ -23,6 +23,8 @@ brew install wrk
 
 ### Test Case 1
 
+<img width="611" alt="image" src="https://user-images.githubusercontent.com/25793226/211211882-d88ae01d-a912-44d2-9974-0f919cf05a40.png">
+
 ```sh
 wrk -d1m http://localhost:3000/
 ```
