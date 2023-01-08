@@ -25,6 +25,8 @@ brew install wrk
 
 <img width="611" alt="image" src="https://user-images.githubusercontent.com/25793226/211211882-d88ae01d-a912-44d2-9974-0f919cf05a40.png">
 
+<img width="607" alt="스크린샷 2023-01-09 오전 3 31 26" src="https://user-images.githubusercontent.com/25793226/211212766-98b665c2-2d13-4eef-aa63-85e03cc6c3ac.png">
+
 ```sh
 wrk -d1m http://localhost:3000/
 ```
@@ -91,6 +93,10 @@ Transfer/sec:     27.44MB
 
 ### Test Case 2
 
+<img width="609" alt="스크린샷 2023-01-09 오전 3 26 25" src="https://user-images.githubusercontent.com/25793226/211212569-42a11dda-bcea-4f96-a999-6825af01b579.png">
+
+<img width="607" alt="image" src="https://user-images.githubusercontent.com/25793226/211212784-1f1103d4-9cae-4c86-9759-4921a2031acf.png">
+
 ```sh
 wrk -d1m -t10 -c50 http://localhost:3000/
 ```
@@ -156,6 +162,10 @@ Transfer/sec:     28.33MB
 ```
 
 ### Test Case 3
+
+<img width="607" alt="스크린샷 2023-01-09 오전 3 27 05" src="https://user-images.githubusercontent.com/25793226/211212596-18f7ee8f-9a44-406a-929f-f45f5458ed93.png">
+
+<img width="608" alt="스크린샷 2023-01-09 오전 3 32 46" src="https://user-images.githubusercontent.com/25793226/211212796-849918e4-b4da-4550-851d-9450c03d448f.png">
 
 ```sh
 wrk -d1m -t10 -c1000 http://localhost:3000/
@@ -224,3 +234,7 @@ Running 1m test @ http://localhost:3000/
 Requests/sec: 119672.08
 Transfer/sec:     28.53MB
 ```
+
+## ETC
+
+<img width="454" alt="스크린샷 2023-01-09 오전 3 22 52" src="https://user-images.githubusercontent.com/25793226/211212610-835c71f8-ce5c-48d9-b186-c37c57c633f6.png">
