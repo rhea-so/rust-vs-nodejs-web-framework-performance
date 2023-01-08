@@ -1,0 +1,5 @@
+# Reference: https://rocket.rs/v0.4/guide/configuration/#rockettoml
+
+[global]
+address = "0.0.0.0"
+port = 3000

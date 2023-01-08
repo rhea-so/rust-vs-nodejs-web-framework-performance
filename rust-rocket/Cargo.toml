@@ -1,0 +1,19 @@
+[package]
+name = "rust-rocket"
+version = "0.1.0"
+edition = "2021"
+authors = ["rhea-so <jeonghgyeon.rhea@gmail.com>"]
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies.rocket]
+version = "0.5.0-rc.2"
+features = [
+    "json",
+] # Reference: https://stackoverflow.com/questions/68682054/how-to-return-json-as-a-response-in-rust-rocket-with-auto-field-deserialising
+
+[package.metadata.commands]
+build = "cargo build"
+release = "cargo build --release"
+start = "cargo run"
+dev = "cargo watch -x run"
