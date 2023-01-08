@@ -1,4 +1,4 @@
-# 🔥 Rust Rocket vs Node.js Express Performance Test
+# 🔥 Rust Rocket vs Node.js Express Performance
 
 Maybe, `"Rust Rocket is 5 times faster than Node.js Express"`
 
