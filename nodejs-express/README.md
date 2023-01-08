@@ -1,11 +1,12 @@
 ## Run - Development Mode
 
 ```sh
-npm run start
+node main.js
 ```
 
 ## Run - Production Mode
 
 ```sh
-npm run start:prod
+export NODE_ENV=production
+node main.js
 ```
